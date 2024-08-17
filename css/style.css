@@ -17,8 +17,8 @@ html {
 .menu_loger{
 	margin-left: 25px;
 }
-.menu_loger h1{
-	font-size: 40px;
+.menu_loger h3{
+	font-size: 50px;
 }
 .menu_links a{
 	text-decoration: none;
@@ -26,4 +26,55 @@ html {
 	color: #000000;
 	margin-right: 25px;
 	font-weight: 300;
+}
+/** Header **/
+header img{
+	width: 100%;
+	height: 630px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/** Seccion Acerca de Mí **/
+.container{
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px 40px;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+}
+.container h2{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+.card{
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+.card_img img{
+	width: 100%;
+	background-size: cover;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.card_text h1{
+	text-align: center;
+	font-size: 30px;
+}
+.card_text p{
+	font-size: 20px;
+	font-weight: 200;
+}
+/** Seccion de Contacto **/
+.section_text{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 20;
+}
+form{
+	width: 100%;
+	display: flex;
+
 }
