@@ -1,0 +1,29 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+/** Menú **/
+.menu{
+	width: 100%;
+	height: 80px;
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu_loger{
+	margin-left: 25px;
+}
+.menu_loger h1{
+	font-size: 40px;
+}
+.menu_links a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #000000;
+	margin-right: 25px;
+	font-weight: 300;
+}
